@@ -1,0 +1,20 @@
+.min-vh-50 {
+    height: 50vh;
+}
+img {
+    border-radius: 50%;    
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250;
+}
+
+.linkedIn {
+    display: inline;
+    margin-left: 800px;
+    margin-right: 00px;
+    width: 100;
+}

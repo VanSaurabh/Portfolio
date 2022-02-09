@@ -1,0 +1,116 @@
+[
+    {
+        "name": "Money Transfer API App",
+        "stack": [
+            {
+                "name": "Java",
+                "iconClasses": "fab fa-java"
+            }
+        ],
+        "description": "A simple money transfer API",
+        "sourceUrl": "https://github.com/VanSaurabh/Money-Transfer-API",
+        "featured": "true"
+    },
+    {
+        "name": "Ipl Dashboard",
+        "stack": [
+            {
+                "name": "Java",
+                "iconClasses": "fab fa-java"
+            }
+        ],
+        "description": "Backend application API for IPL",
+        "sourceUrl": "https://github.com/VanSaurabh/Ipl-dashboard",
+        "featured": "true"
+    },
+    {
+        "name": "Contract First Approach Sample",
+        "stack": [
+            {
+                "name": "Java",
+                "iconClasses": "fab fa-java"
+            }
+        ],
+        "description": "A sample application depicting contract first approach using open API specification",
+        "sourceUrl": "https://github.com/VanSaurabh/contract-first-sample",
+        "featured": "true"
+    },
+    {
+        "name": "Json Util",
+        "stack": [
+            {
+                "name": "Java",
+                "iconClasses": "fab fa-java"
+            }
+        ],
+        "description": "A simple, fast and light weight Json utility",
+        "sourceUrl": "https://github.com/VanSaurabh/JsonUtil"
+    },
+    {
+        "name": "GraphQL Demo",
+        "stack": [
+            {
+                "name": "Java",
+                "iconClasses": "fab fa-java"
+            }
+        ],
+        "description": "A demo application using GraphQL",
+        "sourceUrl": "https://github.com/VanSaurabh/GraphQLDemo",
+        "featured": "true"
+    },
+    {
+        "name": "AWS Congnito user migration",
+        "stack": [
+            {
+                "name": "Java",
+                "iconClasses": "fab fa-java"
+            },
+            {
+                "name": "AWS",
+                "iconClasses": "fab fa-aws"
+            }
+        ],
+        "description": "An application to migrate all the cognito users from one AWS account to another",
+        "sourceUrl": "https://github.com/VanSaurabh/Cognito-User-Migration-Verification",
+        "featured": "true"
+    },
+    {
+        "name": "AWS Serverless",
+        "stack": [
+            {
+                "name": "Java",
+                "iconClasses": "fab fa-java"
+            },
+            {
+                "name": "AWS",
+                "iconClasses": "fab fa-aws"
+            }
+        ],
+        "description": "A money transfer API using AWS serverless Lambda",
+        "sourceUrl": "https://github.com/VanSaurabh/Serverless-API",
+        "featured": "true"
+    },
+    {
+        "name": "Money Transfer API using NodeJs",
+        "stack": [
+            {
+                "name": "NodeJs",
+                "iconClasses": "fab fa-node-js"                
+            }
+        ],
+        "description": "A money transfer API using Node JS",
+        "sourceUrl": "https://github.com/VanSaurabh/Money-Transfer-API-NodeJs",
+        "featured": "true"
+    },
+    {
+        "name": "Product Catalogue API",
+        "stack": [
+            {
+                "name": "Java",
+                "iconClasses": "fab fa-java"
+            }
+        ],
+        "description": "A sample product-catalogue API",
+        "sourceUrl": "https://github.com/VanSaurabh/Product-Catalog-API"
+    }
+]
