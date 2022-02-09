@@ -11,4 +11,5 @@ export class CareerComponent {
     { viewClasses: 'd-none d-md-flex', headingClass: 'display-3', useSmallerHeadings: false },
     { viewClasses: 'd-flex d-md-none', headingClass: '', useSmallerHeadings: true }
   ];
+
 }
