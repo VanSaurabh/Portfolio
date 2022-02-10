@@ -26,6 +26,6 @@ export class HeaderService {
   }
 
   private checkForHomeUrl(url: string): boolean {
-    return url.startsWith('/#') || url == '/';
+    return url.startsWith('/') || url == '/';
   }
 }
