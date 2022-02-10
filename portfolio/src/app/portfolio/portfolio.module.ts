@@ -10,6 +10,7 @@ import { CareerComponent } from './career/career.component';
 import { MobiquityComponent } from './career/mobiquity/mobiquity.component';
 import { FisComponent } from './career/fis/fis.component';
 import { TcsComponent } from './career/tcs/tcs.component';
+import { BlogComponent } from './blog/blog.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { TcsComponent } from './career/tcs/tcs.component';
     CareerComponent,
     MobiquityComponent,
     FisComponent,
-    TcsComponent
+    TcsComponent,
+    BlogComponent
   ],
   imports: [
     CommonModule,

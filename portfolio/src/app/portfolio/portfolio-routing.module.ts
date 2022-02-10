@@ -7,6 +7,7 @@ import { ContactComponent } from './contact/contact.component';
 import { MobiquityComponent } from './career/mobiquity/mobiquity.component';
 import { FisComponent } from './career/fis/fis.component';
 import { TcsComponent } from './career/tcs/tcs.component';
+import { BlogComponent } from './blog/blog.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -15,7 +16,8 @@ const routes: Routes = [
   { path: 'contact', component: ContactComponent },
   { path: 'mobiquity', component: MobiquityComponent},
   { path: 'fis', component: FisComponent },
-  { path: 'tcs', component: TcsComponent}
+  { path: 'tcs', component: TcsComponent},
+  { path: 'blog', component: BlogComponent }
 ];
 
 @NgModule({
