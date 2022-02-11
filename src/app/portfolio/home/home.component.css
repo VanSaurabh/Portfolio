@@ -1,5 +1,5 @@
 .min-vh-50 {
-    height: 50vh;
+    height: 40vh;
 }
 img {
     border-radius: 50%;    
@@ -11,10 +11,12 @@ img {
     margin-right: auto;
     width: 250;
 }
+.faded {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(155, 152, 152);
+}
 
-.linkedIn {
-    display: inline;
-    margin-left: 800px;
-    margin-right: 00px;
-    width: 100;
+.mb-2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 20;
 }

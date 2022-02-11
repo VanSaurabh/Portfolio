@@ -2,26 +2,32 @@
     <div>
         <img src="../../../assets/images/profile.jpg" alt="profile_pic" width="250" class="center">
     </div>
+    <br><br>
 </div>
 <div class="d-flex flex-column justify-content-center align-items-center w-100" *ngIf="bio$ | async as bio">
     <div class="d-flex flex-column min-vh-50 justify-content-center align-items-center w-75">
         <div *ngFor="let options of respOptions" [ngClass]="options.viewClasses"
             class="flex-column justify-content-center align-items-start w-75">
-            <h1 [ngClass]="options.headingClass" class="text-left"> <span
-                    class="font-weight-bold">{{bio.firstName+' '+bio.lastName}}</span></h1>
-            <div *ngFor="let par of bio.intro">
+            <h1 [ngClass]="options.headingClass" class="text-left"><span>{{bio.firstName+' '+bio.lastName}}</span></h1>
+            <div class="faded">
+                <b>Not afraid to fail</b><br>
+            </div>
+            <br>
+            <div *ngFor="let par of bio.intro" class="mb-2">
                 <h2 class="text-left" *ngIf="!options.useSmallerHeadings">{{par}}</h2>
                 <h5 class="text-left" *ngIf="options.useSmallerHeadings">{{par}}</h5>
             </div>
         </div>
     </div>
 
-
     <div class="d-none d-md-block mt-5"></div>
     <app-about id="about" class="mb-5"></app-about>
 
     <div class="d-none d-md-block mt-5"></div>
     <app-career id="career" class="mb-5"></app-career>
+
+    <div class="d-none d-md-block mt-5"></div>
+    <app-skills id="skills" class="mb-5"></app-skills>
 
     <div class="d-none d-md-block mt-5"></div>
     <app-projects id="projects" class="mb-5"></app-projects>

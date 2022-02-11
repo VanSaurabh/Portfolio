@@ -11,6 +11,7 @@ import { MobiquityComponent } from './career/mobiquity/mobiquity.component';
 import { FisComponent } from './career/fis/fis.component';
 import { TcsComponent } from './career/tcs/tcs.component';
 import { BlogComponent } from './blog/blog.component';
+import { SkillsComponent } from './skills/skills.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { BlogComponent } from './blog/blog.component';
     MobiquityComponent,
     FisComponent,
     TcsComponent,
-    BlogComponent
+    BlogComponent,
+    SkillsComponent
   ],
   imports: [
     CommonModule,

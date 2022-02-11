@@ -1,10 +1,18 @@
 <div class="d-flex justify-content-center vw-90 mx-auto" *ngIf="bio$ | async as bio">
     <div *ngFor="let options of respOptions" [ngClass]="options.viewClasses"
         class="flex-column align-items-center text-center w-75">
-        <h1 [ngClass]="options.headingClass" class="mb-5"><span class="font-weight-bold">About Me</span></h1>
-        <div *ngFor="let par of bio.about">
-            <h4 *ngIf="!options.useSmallerHeadings" class="mb-4">{{par}}</h4>
-            <h5 *ngIf="options.useSmallerHeadings" class="mb-4">{{par}}</h5>
+        <h1><span class="font-weight-bold">About Me</span></h1>
+        <br><br>
+        <div>
+            <p class="mb-2" style="line-height:2.0em;"> 
+                I have 5+ years of experience in software development.<br>
+                I have extensive experience in developing scalable applications with experience in <b>Banking, Retail</b> and <b>Telecommunication</b> domain and I am always excited to take up new challenges and roles.<br>
+                Well versed with all the phases of <b>SDLC, Agile, CI/CD, TDD </b> and <b>clean code</b> practices.<br>
+                Experience in mentoring and leading teams, prioritising tasks and delivering products.<br>
+                I like to explore new technologies and write blogs about the same.<br>
+                I like to ride bike, read books, watch movies and think.<br>
+                Interested in Dev-ops, micro-services and cloud computing.<br>
+            </p>
         </div>
     </div>
 </div>

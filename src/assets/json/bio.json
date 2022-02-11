@@ -2,11 +2,15 @@
     "firstName": "Saurabh",
     "lastName": "Kundu",
     "intro": [
-        "Passionate problem solver and quick learner with 5+ years of industry experience in designing and developing scalable applications"
+        "Self starter, quick learner, passionate problem solver with 5+ years of industry experience in designing and developing scalable applications"
     ],
     "about": [
         "I have 5+ years of experience in software development.",
-        "I have extensive experience in developing scalable banking applications. Though I have experience in Retail and telecommunication domain too but I like to take up challenges to innovate in the financial sector.",
-        "I like to explore new technologies and write blogs about the same."
+        "I have extensive experience in developing scalable applications with experience in Banking, Retail and Telecommunication domain and I am always excited to take up new challenges and roles.",
+        "Well versed with all the phases of SDLC, Agile, CI/CD, TDD and clean code practices.",
+        "Experience in mentoring and leading teams, prioritising tasks and delivering products.",
+        "I like to explore new technologies and write blogs about the same.",
+        "I like to ride bike, read books, watch movies and think.",
+        "Interested in Dev-ops, micro-services and cloud computing."
     ]
 }
