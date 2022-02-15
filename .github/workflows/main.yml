@@ -27,5 +27,5 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '16'
-      - run: npm i @angular/cli@11.0.0
+      - run: npm i @angular/cli@11.2.14
       - run: ng build --prod
